@@ -1,0 +1,36 @@
+{
+  "resourceType": "Location",
+  "id": "location-001",
+  "status": "active",
+  "name": "HIV Testing Room",
+  "description": "A designated space for HIV counseling and testing",
+  "mode": "instance",
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "code": "HOSP",
+          "display": "Hospital Unit"
+        }
+      ],
+      "text": "Clinical Unit"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+256414567890"
+    }
+  ],
+  "address": {
+    "line": ["Plot 5, Ministry Lane"],
+    "city": "Kampala",
+    "district": "Central",
+    "country": "UG"
+  },
+  "managingOrganization": {
+    "reference": "Organization/BrtC10sqp45",
+    "display": "Kawempe National Referral Hospital"
+  }
+}

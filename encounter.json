@@ -1,0 +1,37 @@
+{
+  "resourceType": "Encounter",
+  "id": "example-encounter-001",
+  "status": "finished",
+  "type": [
+    {
+      "text": "Outpatient Consultation"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/example-001"
+  },
+  "period": {
+    "start": "2024-05-01T10:00:00Z",
+    "end": "2024-05-01T10:30:00Z"
+  },
+  "participant": [
+    {
+      "individual": {
+        "reference": "Practitioner/10"
+      }
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/BrtC10sqp45",
+    "display": "Kawempe National Referral Hospital"
+  },
+  "location": [
+    {
+      "location": {
+        "reference": "Location/location-001",
+        "display": "HIV Testing Room"
+      },
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "resourceType": "Practitioner",
+  "id": "10",
+  "identifier": [
+    {
+      "system": "http://hmis.health.go.ug/license",
+      "value": "UG-MOH-123456"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "family": "Kaggwa",
+      "given": ["John", "Michael"]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+256772000001",
+      "use": "mobile"
+    },
+    {
+      "system": "email",
+      "value": "john.kaggwa@health.go.ug",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "line": ["Mulago Hill Road"],
+      "city": "Kampala",
+      "postalCode": "256"
+    }
+  ],
+  "qualification": [
+    {
+      "identifier": {
+        "system": "http://health.go.ug/qualifications",
+        "value": "MBChB"
+      },
+      "code": {
+        "text": "Bachelor of Medicine and Bachelor of Surgery"
+      },
+      "issuer": {
+        "display": "Makerere University"
+      }
+    }
+  ]
+}

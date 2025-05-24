@@ -1,0 +1,34 @@
+{
+  "resourceType": "Patient",
+  "identifier": [
+    {
+      "system": "http://hospital.smarthealthit.org",
+      "value": "123098"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Christine",
+      "given": ["Mukisa"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1985-05-15",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "555-123-4567",
+      "use": "mobile"
+    }
+  ],
+  "address": [
+    {
+      "line": ["123 Main St"],
+      "city": "Anytown",
+      "state": "CA",
+      "postalCode": "90210",
+      "country": "US"
+    }
+  ]
+}
