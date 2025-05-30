@@ -1,0 +1,41 @@
+{
+  "patient": {
+    "firstname": "Abooki",
+    "lastname": "Mutoora",
+    "middlename": "Joy",
+    "dob": "1955-05-01",
+    "gender": "female",
+    "nationalId": "UGM-1234-11",
+    "passport": "199890-MK-00-99-11",
+    "emrId": "UG-098-456",
+    "email": "joy@gmail.com",
+    "phoneNumber": "0779825000",
+    "address": "Ntinda Bukasa",
+    "village": "kicwamba",
+    "parish": "natara",
+    "subcounty": "Natara",
+    "country": "Uganda",
+    "city": "Kampala",
+    "district": "Kitagwenda",
+    "postalCode": "256"
+  },
+  "encounter": {
+    "start": "2024-05-20T08:00:00Z",
+    "end": "2024-05-20T08:30:00Z"
+  },
+  "observations": [
+    {
+      "type": "Blood Pressure",
+      "value": "120/80",
+      "date": "2024-05-20T08:10:00Z"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Paracetamol",
+      "dosage": "500mg every 6 hours",
+      "start": "2024-05-20T08:00:00Z",
+      "end": "2024-05-22T08:00:00Z"
+    }
+  ]
+}
